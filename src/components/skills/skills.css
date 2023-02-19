@@ -1,0 +1,42 @@
+.grid-container {
+  justify-content: center;
+  display: grid;
+  width: 100%;
+
+  border-radius: 3rem;
+  grid-template-columns: 15% 15% 15% 15% 15% 15%;
+  gap: 2%;
+}
+
+.icon-container {
+  min-height: 5rem;
+  min-width: 5rem;
+  backdrop-filter: blur(15px);
+  background: rgba(0, 0, 0, 0.3);
+  justify-self: center;
+  max-width: fit-content;
+  padding: 0.6rem;
+  display: flex;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.container-item {
+  flex-direction: column;
+  display: flex;
+  justify-self: center;
+  padding: 0.6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+@media screen and (max-width: 800px) {
+  .grid-container {
+    grid-template-columns: 30% 30% 30%;
+    gap: 5%;
+  }
+}
