@@ -4,14 +4,16 @@ import MyMusic from "../../assets/MyMusic.png";
 import SortComparator from "../../assets/Sort-Comparator.png";
 import ProxyServer from "../../assets/Proxy-Server.jpg";
 import TinyCompiler from "../../assets/Tiny-Compiler.jpg";
+import Covid19 from "../../assets/Covid19.png";
+import GraphQL from "../../assets/GraphQL.png";
+import PyDrift from "../../assets/PyDrift.png";
 
 const data = [
   {
-    id: 1,
-    image:
-      "https://www.udacity.com/blog/wp-content/uploads/2018/05/Udacity-Robotics-Mars-2-1.png",
-    github: "https://github.com/M-Abdelmegeed/Mars-Rover-Project",
-    title: "Python Mars Rover",
+    id: 8,
+    image: PyDrift,
+    github: "https://github.com/M-Abdelmegeed/PyDrift",
+    title: "PyDrift",
   },
   {
     id: 2,
@@ -48,6 +50,25 @@ const data = [
     image: TinyCompiler,
     github: "https://github.com/M-Abdelmegeed/Compilers-Project",
     title: "Tiny Compiler",
+  },
+  {
+    id: 9,
+    image: Covid19,
+    github: "https://github.com/M-Abdelmegeed/COVID-19-predictor",
+    title: "COVID 19 Predictor",
+  },
+  {
+    id: 1,
+    image:
+      "https://www.udacity.com/blog/wp-content/uploads/2018/05/Udacity-Robotics-Mars-2-1.png",
+    github: "https://github.com/M-Abdelmegeed/Mars-Rover-Project",
+    title: "Python Mars Rover",
+  },
+  {
+    id: 10,
+    image: GraphQL,
+    github: "https://github.com/M-Abdelmegeed/GraphQL-Apollo-Server",
+    title: "GraphQL Apollo Server",
   },
 ];
 

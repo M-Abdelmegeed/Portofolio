@@ -48,6 +48,10 @@ header {
   padding: 1.5rem 1.5rem 1.5rem 1.5rem;
 }
 
+img {
+  height: 78%;
+}
+
 /* ==============Scroll Down ============= */
 .scroll__down {
   position: absolute;
@@ -60,7 +64,10 @@ header {
 
 @media screen and (max-width: 1024px) {
   header {
+    margin-left: auto;
+    margin-right: auto;
     height: 88vh;
+    width: 90%;
   }
 }
 

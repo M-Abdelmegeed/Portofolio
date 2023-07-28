@@ -5,15 +5,8 @@ import TimelineItem from "@mui/lab/TimelineItem";
 import TimelineSeparator from "@mui/lab/TimelineSeparator";
 import TimelineConnector from "@mui/lab/TimelineConnector";
 import TimelineContent from "@mui/lab/TimelineContent";
-// import TimelineOppositeContent from "@mui/lab/TimelineOppositeContent";
-import TimelineOppositeContent, {
-  timelineOppositeContentClasses,
-} from "@mui/lab/TimelineOppositeContent";
+import TimelineOppositeContent from "@mui/lab/TimelineOppositeContent";
 import TimelineDot from "@mui/lab/TimelineDot";
-import FastfoodIcon from "@mui/icons-material/Fastfood";
-import LaptopMacIcon from "@mui/icons-material/LaptopMac";
-import HotelIcon from "@mui/icons-material/Hotel";
-import RepeatIcon from "@mui/icons-material/Repeat";
 import Typography from "@mui/material/Typography";
 import CircleIcon from "@mui/icons-material/Circle";
 
@@ -35,7 +28,7 @@ const Experience = () => {
           </TimelineOppositeContent>
           <TimelineSeparator>
             <TimelineConnector />
-            <TimelineDot color="primary">
+            <TimelineDot style={{ color: "grey" }}>
               <CircleIcon />
             </TimelineDot>
             <TimelineConnector />
@@ -73,7 +66,7 @@ const Experience = () => {
           </TimelineOppositeContent>
           <TimelineSeparator>
             <TimelineConnector />
-            <TimelineDot color="primary">
+            <TimelineDot style={{ color: "grey" }}>
               <CircleIcon />
             </TimelineDot>
             <TimelineConnector />
@@ -114,7 +107,7 @@ const Experience = () => {
           </TimelineOppositeContent>
           <TimelineSeparator>
             <TimelineConnector />
-            <TimelineDot color="primary">
+            <TimelineDot style={{ color: "grey" }}>
               <CircleIcon />
             </TimelineDot>
             <TimelineConnector />
@@ -154,7 +147,7 @@ const Experience = () => {
           </TimelineOppositeContent>
           <TimelineSeparator>
             <TimelineConnector />
-            <TimelineDot color="primary">
+            <TimelineDot style={{ color: "grey" }}>
               <CircleIcon />
             </TimelineDot>
             <TimelineConnector />
@@ -193,7 +186,7 @@ const Experience = () => {
           </TimelineOppositeContent>
           <TimelineSeparator>
             <TimelineConnector />
-            <TimelineDot color="primary">
+            <TimelineDot style={{ color: "grey" }}>
               <CircleIcon />
             </TimelineDot>
             <TimelineConnector />

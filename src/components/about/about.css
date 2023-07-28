@@ -66,6 +66,7 @@ p {
   }
 
   .about__content p {
+    padding: 5%;
     margin: 1.5rem 0;
   }
 }

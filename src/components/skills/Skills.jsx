@@ -12,6 +12,12 @@ import { SiHtml5 } from "react-icons/si";
 import { SiMongodb } from "react-icons/si";
 import { SiMysql } from "react-icons/si";
 import { SiNodedotjs } from "react-icons/si";
+import { SiGraphql } from "react-icons/si";
+import { SiDocker } from "react-icons/si";
+import { SiLinux } from "react-icons/si";
+import { SiAmazonaws } from "react-icons/si";
+import { SiFlutter } from "react-icons/si";
+import { SiGo } from "react-icons/si";
 
 const Skills = () => {
   return (
@@ -141,6 +147,57 @@ const Skills = () => {
             ></SiTypescript>
           </div>
           TypeScript
+        </div>
+        <div className="container-item">
+          <div className="icon-container">
+            <SiLinux
+              style={{ color: "var(--color-primary)" }}
+              size={42}
+            ></SiLinux>
+          </div>
+          Linux
+        </div>
+        <div className="container-item">
+          <div className="icon-container">
+            <SiDocker
+              style={{ color: "var(--color-primary)" }}
+              size={42}
+            ></SiDocker>
+          </div>
+          Docker
+        </div>
+        <div className="container-item">
+          <div className="icon-container">
+            <SiFlutter
+              style={{ color: "var(--color-primary)" }}
+              size={42}
+            ></SiFlutter>
+          </div>
+          Flutter
+        </div>
+        <div className="container-item">
+          <div className="icon-container">
+            <SiAmazonaws
+              style={{ color: "var(--color-primary)" }}
+              size={42}
+            ></SiAmazonaws>
+          </div>
+          AWS
+        </div>
+        <div className="container-item">
+          <div className="icon-container">
+            <SiGraphql
+              style={{ color: "var(--color-primary)" }}
+              size={42}
+            ></SiGraphql>
+          </div>
+          GraphQL
+        </div>
+        <div className="container-item">
+          <div className="icon-container">
+            <SiGo style={{ color: "var(--color-primary)" }} size={42}></SiGo>
+          </div>
+          GoLang (still learning)
         </div>
       </div>
     </section>
