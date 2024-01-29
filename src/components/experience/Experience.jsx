@@ -39,7 +39,7 @@ const Experience = () => {
               component="span"
               style={{ color: "var(--color-primary)" }}
             >
-              Part-Time Web Development Instructor
+              Front-End Instructor
             </Typography>
             <Typography
               variant="h5"
@@ -50,8 +50,87 @@ const Experience = () => {
             </Typography>
 
             <Typography>
-              Teaching students remotely all about HTML5, CSS and JavaScript and
-              building with them several projects.
+              Teaching students remotely all about HTML5, CSS and JavaScript &
+              ReactJS and building with them several projects.
+            </Typography>
+          </TimelineContent>
+        </TimelineItem>
+        <TimelineItem>
+          <TimelineOppositeContent
+            sx={{ m: "auto 0" }}
+            align="right"
+            variant="body2"
+            color="white"
+          >
+            Aug 2023 - Oct 2023
+          </TimelineOppositeContent>
+          <TimelineSeparator>
+            <TimelineConnector />
+            <TimelineDot style={{ color: "grey" }}>
+              <CircleIcon />
+            </TimelineDot>
+            <TimelineConnector />
+          </TimelineSeparator>
+          <TimelineContent sx={{ py: "12px", px: 2 }} style={{ flex: 7 }}>
+            <Typography
+              variant="h4"
+              component="span"
+              style={{ color: "var(--color-primary)" }}
+            >
+              AI Engineering Intern
+            </Typography>
+            <Typography
+              variant="h5"
+              style={{ color: "var(--color-light)" }}
+              align="left"
+            >
+              IBM
+            </Typography>
+
+            <Typography>
+              Was part of project Cleopatra, a Generative AI powered platform
+              for Egyptian Tourism. I was part of the AI team and Front-End team
+              for the project
+            </Typography>
+          </TimelineContent>
+        </TimelineItem>
+        <TimelineItem>
+          <TimelineOppositeContent
+            sx={{ m: "auto 0" }}
+            align="right"
+            variant="body2"
+            color="white"
+          >
+            Jul 2023 - Aug 2023
+          </TimelineOppositeContent>
+          <TimelineSeparator>
+            <TimelineConnector />
+            <TimelineDot style={{ color: "grey" }}>
+              <CircleIcon />
+            </TimelineDot>
+            <TimelineConnector />
+          </TimelineSeparator>
+          <TimelineContent sx={{ py: "12px", px: 2 }} style={{ flex: 7 }}>
+            <Typography
+              variant="h4"
+              component="span"
+              style={{ color: "var(--color-primary)" }}
+            >
+              Software Engineering Intern
+            </Typography>
+            <Typography
+              variant="h5"
+              style={{ color: "var(--color-light)" }}
+              align="left"
+            >
+              AIM Technologies
+            </Typography>
+
+            <Typography>
+              AIM Technology Group specializes in social media listening using
+              AI and NLP, to gain information about specific brands or projects.
+              These insights are then used to build dashboards and
+              visualizations for their clients
             </Typography>
           </TimelineContent>
         </TimelineItem>
