@@ -8,6 +8,7 @@ import { TbMessages } from "react-icons/tb";
 import { AiOutlineSetting } from "react-icons/ai";
 import { BiBrain } from "react-icons/bi";
 import { useState } from "react";
+import { PiCertificate } from "react-icons/pi";
 
 const Nav = () => {
   const [activeNav, setActiveNav] = useState("#");
@@ -40,6 +41,13 @@ const Nav = () => {
         className={activeNav === "#experience" ? "active" : ""}
       >
         <RiBookReadLine />
+      </a>
+      <a
+        href="#certifications"
+        onClick={() => setActiveNav("#certifications")}
+        className={activeNav === "#certifications" ? "active" : ""}
+      >
+        <PiCertificate />
       </a>
       <a
         href="#portofolio"
