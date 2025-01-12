@@ -16,23 +16,33 @@ const About = () => {
         <div className="about__content">
           {/* <div className="about__cards"></div> */}
           <p>
-            Hello there, nice to meet you! I am Mohammed and I'm currently a
-            senior computer engineering student at Ain Shams University. I am
-            passionate and always excited to explore and learn new things. As a
-            part-time web developer and instructor, I'm well-versed in creating
-            modern, responsive websites that are both user-friendly and visually
-            appealing.
-            <br /> In addition to web development, I have a deep passion for
-            data science and the insights that can be gleaned from complex data
-            sets. I'm always eager to explore new technologies and programming
-            languages to improve my skills and stay up-to-date with the latest
-            trends.
-            <br /> Whether it's building a new website or analyzing data, I love
-            a good challenge that requires creative thinking and
-            problem-solving. I'm excited to see where my future career in both
-            data science and web development takes me, and I'm committed to
-            making a meaningful impact by using technology to solve real-world
-            problems.
+            Hello there, nice to meet you! I am Mohammed, and I am an AI
+            Engineer, Data Scientist, and Teaching Assistant. I have a strong
+            passion for building scalable, high-performing architectures and
+            solutions that deliver tangible value. My work is deeply rooted in
+            data-driven decision-making, ensuring that every solution I design
+            is backed by insightful analysis and evidence.
+            <br /> I thrive in the ever-evolving fields of Generative AI and
+            Large Language Models (LLMs), where I enjoy pushing the boundaries
+            of what's possible with cutting-edge technologies. My expertise also
+            spans across designing and implementing machine learning systems and
+            complex pipelines leveraging cloud services such as AWS and Azure to
+            address real-world challenges in innovative ways.
+            <br /> As a teaching assistant, I find immense satisfaction in
+            sharing knowledge, mentoring others, and fostering a collaborative
+            learning environment. My journey has been shaped by curiosity and an
+            eagerness to continuously learn and grow in the tech industry. From
+            analyzing intricate datasets to architecting modern AI solutions, I
+            am driven by a commitment to solving real-world problems through
+            technology.
+            <br />
+            In addition to my professional pursuits, I am an advocate for
+            leveraging technology to create meaningful and impactful change.
+            Whether it's diagnosing cognitive abilities in children through AI
+            or developing platforms that enhance developer productivity, I am
+            dedicated to making a difference.
+            <br />I live by a simple yet powerful philosophy that keeps me
+            motivated and focused: <b>"Dreams don't work unless you do."</b>
           </p>
           <a href="#contact" className="btn btn-primary">
             Contact Me

@@ -7,8 +7,22 @@ import TinyCompiler from "../../assets/Tiny-Compiler.jpg";
 import Covid19 from "../../assets/Covid19.png";
 import GraphQL from "../../assets/GraphQL.png";
 import PyDrift from "../../assets/PyDrift.png";
+import IntelliFix from "../../assets/IntelliFix Landing.jpeg";
+import ProjectEGX from "../../assets/EGX.png";
 
 const data = [
+  {
+    id: 11,
+    image: IntelliFix,
+    github: "https://github.com/orgs/IntelliFix/repositories",
+    title: "IntelliFix",
+  },
+  {
+    id: 12,
+    image: ProjectEGX,
+    github: "https://github.com/M-Abdelmegeed/Project-EGX",
+    title: "Project EGX",
+  },
   {
     id: 8,
     image: PyDrift,

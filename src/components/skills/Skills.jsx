@@ -6,7 +6,6 @@ import { SiJavascript } from "react-icons/si";
 import { SiTypescript } from "react-icons/si";
 import { SiOpencv } from "react-icons/si";
 import { SiCplusplus } from "react-icons/si";
-import { SiJava } from "react-icons/si";
 import { SiCss3 } from "react-icons/si";
 import { SiHtml5 } from "react-icons/si";
 import { SiMongodb } from "react-icons/si";
@@ -16,18 +15,21 @@ import { SiGraphql } from "react-icons/si";
 import { SiDocker } from "react-icons/si";
 import { SiLinux } from "react-icons/si";
 import { SiAmazonaws } from "react-icons/si";
-import { SiFlutter } from "react-icons/si";
-import { SiGo } from "react-icons/si";
+import { SiMicrosoftazure } from "react-icons/si";
+import { SiOpenai } from "react-icons/si";
+import { SiGooglecloud } from "react-icons/si";
+import { SiTensorflow } from "react-icons/si";
+import { SiKubernetes } from "react-icons/si";
+import { SiPytorch } from "react-icons/si";
+import { SiApachekafka } from "react-icons/si";
+import { SiApacheairflow } from "react-icons/si";
+import { SiGithub } from "react-icons/si";
+import { SiApachespark } from "react-icons/si";
 
 const Skills = () => {
   return (
     <section id="skills">
-      <h5>Get to know</h5>
-      <h2 style={{ marginBottom: "0.7rem" }}>My skills</h2>
-      <h5 style={{ marginBottom: "1.5rem" }}>
-        Well, Im definitely still learning and improving my skillset, but these
-        technologies are the ones that I'm most familiar with at the moment.
-      </h5>
+      <h2 style={{ marginBottom: "0.7rem" }}>Tech Stack</h2>
       <div className="grid-container">
         <div className="container-item">
           <div className="icon-container">
@@ -37,6 +39,98 @@ const Skills = () => {
             ></SiPython>
           </div>
           Python
+        </div>
+        <div className="container-item">
+          {" "}
+          <div className="icon-container">
+            <SiMysql
+              style={{ color: "var(--color-primary)" }}
+              size={42}
+            ></SiMysql>
+          </div>
+          MySQL
+        </div>
+        <div className="container-item">
+          <div className="icon-container">
+            <SiDocker
+              style={{ color: "var(--color-primary)" }}
+              size={42}
+            ></SiDocker>
+          </div>
+          Docker
+        </div>
+        <div className="container-item">
+          <div className="icon-container">
+            <SiGooglecloud
+              style={{ color: "var(--color-primary)" }}
+              size={42}
+            ></SiGooglecloud>
+          </div>
+          GCP
+        </div>
+        <div className="container-item">
+          <div className="icon-container">
+            <SiAmazonaws
+              style={{ color: "var(--color-primary)" }}
+              size={42}
+            ></SiAmazonaws>
+          </div>
+          AWS
+        </div>
+        <div className="container-item">
+          <div className="icon-container">
+            <SiMicrosoftazure
+              style={{ color: "var(--color-primary)" }}
+              size={42}
+            ></SiMicrosoftazure>
+          </div>
+          Microsoft Azure
+        </div>
+        <div className="container-item">
+          <div className="icon-container">
+            <SiOpenai
+              style={{ color: "var(--color-primary)" }}
+              size={42}
+            ></SiOpenai>
+          </div>
+          Generative AI & LLMs
+        </div>
+        <div className="container-item">
+          <div className="icon-container">
+            <SiPytorch
+              style={{ color: "var(--color-primary)" }}
+              size={42}
+            ></SiPytorch>
+          </div>
+          PyTorch
+        </div>
+        <div className="container-item">
+          {" "}
+          <div className="icon-container">
+            <SiTensorflow
+              style={{ color: "var(--color-primary)" }}
+              size={42}
+            ></SiTensorflow>
+          </div>
+          TensorFlow
+        </div>
+        <div className="container-item">
+          <div className="icon-container">
+            <SiApachespark
+              style={{ color: "var(--color-primary)" }}
+              size={42}
+            ></SiApachespark>
+          </div>
+          Apache Spark
+        </div>
+        <div className="container-item">
+          <div className="icon-container">
+            <SiApachekafka
+              style={{ color: "var(--color-primary)" }}
+              size={42}
+            ></SiApachekafka>
+          </div>
+          Apache Kafka
         </div>
         <div className="container-item">
           {" "}
@@ -68,15 +162,15 @@ const Skills = () => {
           </div>
           JavaScript
         </div>
+
         <div className="container-item">
-          {" "}
           <div className="icon-container">
-            <SiMysql
+            <SiKubernetes
               style={{ color: "var(--color-primary)" }}
               size={42}
-            ></SiMysql>
+            ></SiKubernetes>
           </div>
-          MySQL
+          Kubernetes
         </div>
         <div className="container-item">
           {" "}
@@ -121,12 +215,12 @@ const Skills = () => {
         <div className="container-item">
           {" "}
           <div className="icon-container">
-            <SiJava
+            <SiGithub
               style={{ color: "var(--color-primary)" }}
               size={42}
-            ></SiJava>
+            ></SiGithub>
           </div>
-          Java
+          GitHub
         </div>
         <div className="container-item">
           {" "}
@@ -159,33 +253,6 @@ const Skills = () => {
         </div>
         <div className="container-item">
           <div className="icon-container">
-            <SiDocker
-              style={{ color: "var(--color-primary)" }}
-              size={42}
-            ></SiDocker>
-          </div>
-          Docker
-        </div>
-        <div className="container-item">
-          <div className="icon-container">
-            <SiFlutter
-              style={{ color: "var(--color-primary)" }}
-              size={42}
-            ></SiFlutter>
-          </div>
-          Flutter
-        </div>
-        <div className="container-item">
-          <div className="icon-container">
-            <SiAmazonaws
-              style={{ color: "var(--color-primary)" }}
-              size={42}
-            ></SiAmazonaws>
-          </div>
-          AWS
-        </div>
-        <div className="container-item">
-          <div className="icon-container">
             <SiGraphql
               style={{ color: "var(--color-primary)" }}
               size={42}
@@ -195,9 +262,12 @@ const Skills = () => {
         </div>
         <div className="container-item">
           <div className="icon-container">
-            <SiGo style={{ color: "var(--color-primary)" }} size={42}></SiGo>
+            <SiApacheairflow
+              style={{ color: "var(--color-primary)" }}
+              size={42}
+            ></SiApacheairflow>
           </div>
-          GoLang (still learning)
+          Apache Airflow
         </div>
       </div>
     </section>

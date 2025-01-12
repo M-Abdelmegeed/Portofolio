@@ -24,7 +24,101 @@ const Experience = () => {
             variant="body2"
             color="white"
           >
-            Aug 2022 - Pre sent
+            Oct 2024 - Present
+          </TimelineOppositeContent>
+          <TimelineSeparator>
+            <TimelineConnector />
+            <TimelineDot style={{ color: "grey" }}>
+              <CircleIcon />
+            </TimelineDot>
+            <TimelineConnector />
+          </TimelineSeparator>
+          <TimelineContent sx={{ py: "12px", px: 2 }} style={{ flex: 7 }}>
+            <Typography
+              variant="h4"
+              component="span"
+              style={{ color: "var(--color-primary)" }}
+            >
+              Teaching Assistant
+            </Typography>
+            <Typography
+              variant="h5"
+              style={{ color: "var(--color-light)" }}
+              align="left"
+            >
+              Ain Shams University
+            </Typography>
+
+            <Typography>
+              Teaching and guiding university undergrads in their current
+              studies and software engineering subjects
+            </Typography>
+          </TimelineContent>
+        </TimelineItem>
+        <TimelineItem>
+          <TimelineOppositeContent
+            sx={{ m: "auto 0" }}
+            align="right"
+            variant="body2"
+            color="white"
+          >
+            Mar 2024 - Present
+          </TimelineOppositeContent>
+          <TimelineSeparator>
+            <TimelineConnector />
+            <TimelineDot style={{ color: "grey" }}>
+              <CircleIcon />
+            </TimelineDot>
+            <TimelineConnector />
+          </TimelineSeparator>
+          <TimelineContent sx={{ py: "12px", px: 2 }} style={{ flex: 7 }}>
+            <Typography
+              variant="h4"
+              component="span"
+              style={{ color: "var(--color-primary)" }}
+            >
+              Data Scientist & AI Engineer
+            </Typography>
+            <Typography
+              variant="h5"
+              style={{ color: "var(--color-light)" }}
+              align="left"
+            >
+              Jumia Group
+            </Typography>
+            <Typography>
+              <ul>
+                <li>
+                  Developed and fine-tuned NER models to extract entities across
+                  diverse product categories, customiz ing pre-trained models
+                  for specific use cases. Extracted entities for approximately
+                  150M products in 20 different categories{" "}
+                </li>
+                <li>
+                  Designed and implemented a large-scale-duplication system
+                  using text and image embeddings from product attributes,
+                  grouping similar products and improving catalog accuracy
+                  across multiple regions. Enabled processing of over 500M
+                  products spanning 11 countries{" "}
+                </li>{" "}
+                <li>
+                  Migrated projects from Dataiku to AWS SageMaker, implementing
+                  scalable ML and preprocessing pipelines. Utilized AWS services
+                  including Step Functions, Athena, and EventBridge, enhancing
+                  pipeline efficiency and reducing operational overhead.
+                </li>
+              </ul>
+            </Typography>
+          </TimelineContent>
+        </TimelineItem>
+        <TimelineItem>
+          <TimelineOppositeContent
+            sx={{ m: "auto 0" }}
+            align="right"
+            variant="body2"
+            color="white"
+          >
+            Aug 2022 - Aug 2024
           </TimelineOppositeContent>
           <TimelineSeparator>
             <TimelineConnector />
@@ -50,8 +144,8 @@ const Experience = () => {
             </Typography>
 
             <Typography>
-              Teaching students remotely all about HTML5, CSS and JavaScript &
-              ReactJS and building with them several projects.
+              Taught foundational and advanced web development concepts,
+              including HTML, CSS, JavaScript, and React.js.
             </Typography>
           </TimelineContent>
         </TimelineItem>
@@ -88,9 +182,28 @@ const Experience = () => {
             </Typography>
 
             <Typography>
-              Was part of project Cleopatra, a Generative AI powered platform
-              for Egyptian Tourism. I was part of the AI team and Front-End team
-              for the project
+              <li>
+                Project Manager for a team of 44 interns, overseeing the
+                development of Cleopatra, a Generative AI powered platform for
+                Egyptian tourism.{" "}
+              </li>{" "}
+              <li>
+                Contributed to both AI development and front-end engineering,
+                ensuring seamless integration of ad vanced Generative AI
+                features with a user-friendly interface.{" "}
+              </li>{" "}
+              <li>
+                Developed trip-planning features using OpenAI’s GPT-3.5 Turbo
+                and Langchain, enabling personalized itineraries with
+                recommendations for stays, transportation, and activities based
+                on user preferences.{" "}
+              </li>{" "}
+              <li>
+                Implemented avirtual tour guide leveraging GCP Cloud Vision APIs
+                for place recognition and speech-to text and text-to-speech APIs
+                to deliver engaging, real-time storytelling about historical
+                landmarks.
+              </li>
             </Typography>
           </TimelineContent>
         </TimelineItem>
@@ -156,7 +269,7 @@ const Experience = () => {
               component="span"
               style={{ color: "var(--color-primary)" }}
             >
-              Data Science Intern
+              Backend & Integration Intern
             </Typography>
             <Typography
               variant="h5"
