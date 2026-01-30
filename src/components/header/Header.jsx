@@ -1,7 +1,7 @@
 import React from "react";
 import "./header.css";
 import CTA from "./CTA";
-import ME from "../../assets/Portfolio-Photo.png";
+import ME from "../../assets/professional_photo.png";
 import HeaderSocials from "./HeaderSocials";
 import { CgScrollV } from "react-icons/cg";
 
@@ -12,7 +12,7 @@ const Header = () => {
         <h5>Hello there! I'm</h5>
         <h1>Mohammed Abdelmegeed</h1>
         <h5 className="text-light">
-          Software and AI Engineer | Teaching Assistant
+          Applied AI Engineer | Consultant | Teacher
         </h5>
         <CTA />
         <HeaderSocials />

@@ -6,8 +6,19 @@ import GCP_Data from "../../assets/gcp_data.png";
 import Github from "../../assets/github_foundations.png";
 import Airflow from "../../assets/airflow.png";
 import Oracle from "../../assets/oracle.png";
+import AWS_ML from "../../assets/aws_ml_specialty.png";
+import Fabric_Data_Engineer from "../../assets/microsoft-certified-azure-data-engineer-associate.png";
+import GCP_GenAI_Leader from "../../assets/gen_ai_leader.png";
+import Dataiku_Core from "../../assets/dataiku.png";
 
 const data = [
+  {
+    id: 10,
+    image: AWS_ML,
+    credly:
+      "https://www.credly.com/badges/9415f77f-0e94-4183-bd78-c8871729ecf7",
+    title: "AWS Certified Machine Learning Engineer – Associate",
+  },
   {
     id: 8,
     image: AWS_Solutions_Architect,
@@ -30,11 +41,31 @@ const data = [
     title: "Microsoft Certified: Azure AI Engineer Associate",
   },
   {
+    id: 11,
+    image: Fabric_Data_Engineer,
+    credly:
+      "https://learn.microsoft.com/en-us/users/mohammedahmedabdelmegeedattia-6587/credentials/37e5c87cfb17c8f6",
+    title: "Microsoft Certified: Fabric Data Engineer Associate",
+  },
+  {
     id: 4,
     image: AZ_DS,
     credly:
       "https://learn.microsoft.com/api/credentials/share/en-us/MohammedAhmedAbdelmegeedAttia-6587/B31AA3814D306E97?sharingId=6E06AF00C9586E93",
     title: "Microsoft Certified: Azure Data Scientist Associate",
+  },
+  {
+    id: 12,
+    image: GCP_GenAI_Leader,
+    credly:
+      "https://www.credly.com/badges/b1373ec7-8aba-4a78-bbc6-b926fee94741/public_url",
+    title: "Google Certified: Generative AI Leader",
+  },
+  {
+    id: 13,
+    image: Dataiku_Core,
+    credly: "https://verify.skilljar.com/c/imoccxqdep2i",
+    title: "Dataiku Core Designer",
   },
   {
     id: 5,

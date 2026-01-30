@@ -24,7 +24,75 @@ const Experience = () => {
             variant="body2"
             color="white"
           >
-            Oct 2024 - Present
+            Jul 2025 - Present
+          </TimelineOppositeContent>
+          <TimelineSeparator>
+            <TimelineConnector />
+            <TimelineDot style={{ color: "grey" }}>
+              <CircleIcon />
+            </TimelineDot>
+            <TimelineConnector />
+          </TimelineSeparator>
+          <TimelineContent sx={{ py: "12px", px: 2 }} style={{ flex: 7 }}>
+            <Typography
+              variant="h4"
+              component="span"
+              style={{ color: "var(--color-primary)" }}
+            >
+              Applied AI Engineer
+            </Typography>
+            <Typography
+              variant="h5"
+              style={{ color: "var(--color-light)" }}
+              align="left"
+            >
+              PwC Egypt Technology & Innovation Center
+            </Typography>
+            <Typography>
+              <ul>
+                <li>
+                  Led the design and deployment of multiple production-grade,
+                  agentic AI systems using LangGraph for enterprise and
+                  public-sector use cases.
+                </li>
+                <li>
+                  Architected and led the development of an MCP service as part
+                  of a platform-wide agent-to-agent (A2A) revamp, enabling
+                  agents to connect on-demand, dynamically provision MCP
+                  servers, and handle multiple parallel sessions at scale.
+                </li>
+                <li>
+                  Re-architected and deployed a core conversational AI platform
+                  into a modular agent-based workflow on Azure Kubernetes
+                  Service (AKS).
+                </li>
+                <li>
+                  Designed and deployed a serverless AI engine on Azure
+                  Functions for automated data consistency checks and KPI
+                  extraction using event-driven architectures.
+                </li>
+                <li>
+                  Led the migration of critical analytics workflows from
+                  low-code tooling to scalable PySpark-based agent
+                  architectures.
+                </li>
+                <li>
+                  Mentored junior engineers, led structured learning plans,
+                  interviewed candidates across multiple seniority levels, and
+                  supported AI solution pitching across multiple regions.
+                </li>
+              </ul>
+            </Typography>
+          </TimelineContent>
+        </TimelineItem>
+        <TimelineItem>
+          <TimelineOppositeContent
+            sx={{ m: "auto 0" }}
+            align="right"
+            variant="body2"
+            color="white"
+          >
+            Nov 2024 - Present
           </TimelineOppositeContent>
           <TimelineSeparator>
             <TimelineConnector />
@@ -50,8 +118,16 @@ const Experience = () => {
             </Typography>
 
             <Typography>
-              Teaching and guiding university undergrads in their current
-              studies and software engineering subjects
+              <ul>
+                <li>
+                  Teaching and guiding university undergrads in their current
+                  studies and software engineering subjects.
+                </li>
+                <li>
+                  Assisted in the development of course materials for
+                  programming and software engineering courses.
+                </li>
+              </ul>
             </Typography>
           </TimelineContent>
         </TimelineItem>
@@ -62,7 +138,7 @@ const Experience = () => {
             variant="body2"
             color="white"
           >
-            Mar 2024 - Present
+            Mar 2024 - Jul 2025
           </TimelineOppositeContent>
           <TimelineSeparator>
             <TimelineConnector />
@@ -90,22 +166,31 @@ const Experience = () => {
               <ul>
                 <li>
                   Developed and fine-tuned NER models to extract entities across
-                  diverse product categories, customiz ing pre-trained models
-                  for specific use cases. Extracted entities for approximately
-                  150M products in 20 different categories{" "}
+                  diverse product categories, customizing pre-trained models for
+                  specific use cases. Extracted entities for approximately 150M
+                  products in 20 different categories.
                 </li>
                 <li>
-                  Designed and implemented a large-scale-duplication system
+                  Designed and implemented a large-scale deduplication system
                   using text and image embeddings from product attributes,
                   grouping similar products and improving catalog accuracy
                   across multiple regions. Enabled processing of over 500M
-                  products spanning 11 countries{" "}
-                </li>{" "}
+                  products spanning 11 countries.
+                </li>
                 <li>
                   Migrated projects from Dataiku to AWS SageMaker, implementing
                   scalable ML and preprocessing pipelines. Utilized AWS services
                   including Step Functions, Athena, and EventBridge, enhancing
                   pipeline efficiency and reducing operational overhead.
+                </li>
+                <li>
+                  Developed end-to-end classification systems for product
+                  categorization, leveraging zero-shot classifiers, LLMs, and
+                  fine-tuned transformers.
+                </li>
+                <li>
+                  Implemented LLM-based solutions using GPT and Claude to
+                  develop internal business tools and automate workflows.
                 </li>
               </ul>
             </Typography>
@@ -118,7 +203,7 @@ const Experience = () => {
             variant="body2"
             color="white"
           >
-            Aug 2022 - Aug 2024
+            Aug 2022 - Mar 2024
           </TimelineOppositeContent>
           <TimelineSeparator>
             <TimelineConnector />
