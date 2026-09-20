@@ -16,7 +16,7 @@ const Certifications = () => {
               </div>
               <h3>{certificate.title}</h3>
               <div className="certifications__item-cta">
-                <a href={certificate.credly} className="btn" target="_blank">
+                <a href={certificate.credly} className="btn" target="_blank" rel="noreferrer">
                   Credly
                 </a>
               </div>

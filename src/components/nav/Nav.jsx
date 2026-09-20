@@ -5,19 +5,18 @@ import { HiOutlineUserCircle } from "react-icons/hi";
 import { RiBookReadLine } from "react-icons/ri";
 import { AiOutlineAppstore } from "react-icons/ai";
 import { TbMessages } from "react-icons/tb";
-import { AiOutlineSetting } from "react-icons/ai";
 import { BiBrain } from "react-icons/bi";
 import { useState } from "react";
 import { PiCertificate } from "react-icons/pi";
 
 const Nav = () => {
-  const [activeNav, setActiveNav] = useState("#");
+  const [activeNav, setActiveNav] = useState("#home");
   return (
     <nav>
       <a
-        href="#"
-        onClick={() => setActiveNav("#")}
-        className={activeNav === "#" ? "active" : ""}
+        href="#home"
+        onClick={() => setActiveNav("#home")}
+        className={activeNav === "#home" ? "active" : ""}
       >
         <AiOutlineHome />
       </a>

@@ -7,7 +7,7 @@ import { CgScrollV } from "react-icons/cg";
 
 const Header = () => {
   return (
-    <header>
+    <header id="home">
       <div className="container header__container">
         <h5>Hello there! I'm</h5>
         <h1>Mohammed Abdelmegeed</h1>

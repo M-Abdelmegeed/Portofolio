@@ -8,12 +8,12 @@ import { BsGithub } from "react-icons/bs";
 const Footer = () => {
   return (
     <footer>
-      <a href="#" className="footer__logo">
+      <a href="#home" className="footer__logo">
         Back To The Top
       </a>
       <ul className="permaLinks">
         <li>
-          <a href="#">Home</a>
+          <a href="#home">Home</a>
         </li>
         <li>
           <a href="#about">About</a>
@@ -32,26 +32,26 @@ const Footer = () => {
         </li>
       </ul>
 
-      <div className="footer__socials" target="_blank">
+      <div className="footer__socials">
         <a
           href="https://www.facebook.com/mohammed.ahmedabdelmaguid"
-          target="_blank"
+          target="_blank" rel="noreferrer"
         >
           <FaFacebookF></FaFacebookF>
         </a>
         <a
           href="https://www.instagram.com/mohammed_abdelmegeed/"
-          target="_blank"
+          target="_blank" rel="noreferrer"
         >
           <BsInstagram></BsInstagram>
         </a>
         <a
           href="https://www.linkedin.com/in/mohammed-abdelmegeed/"
-          target="_blank"
+          target="_blank" rel="noreferrer"
         >
           <BsLinkedin />
         </a>
-        <a href="https://github.com/M-Abdelmegeed" target="_blank">
+        <a href="https://github.com/M-Abdelmegeed" target="_blank" rel="noreferrer">
           <BsGithub />
         </a>
       </div>

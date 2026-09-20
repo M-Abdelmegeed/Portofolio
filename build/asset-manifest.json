@@ -1,21 +1,25 @@
 {
   "files": {
-    "main.css": "/Portofolio/static/css/main.4adabee8.css",
-    "main.js": "/Portofolio/static/js/main.38197383.js",
-    "static/media/MyMusic.png": "/Portofolio/static/media/MyMusic.09339d660ba517a1bafe.png",
-    "static/media/Portofolio-Photo-Updated.png": "/Portofolio/static/media/Portofolio-Photo-Updated.a2f5e6f931c5dcd93a12.png",
-    "static/media/ALPD.jpg": "/Portofolio/static/media/ALPD.e2334389927d076d9845.jpg",
-    "static/media/Tiny-Compiler.jpg": "/Portofolio/static/media/Tiny-Compiler.9cffecc258dfcc1450a1.jpg",
-    "static/media/Sokhna Photo Square.jpeg": "/Portofolio/static/media/Sokhna Photo Square.022a43827ff93392184f.jpeg",
-    "static/media/Dawi.png": "/Portofolio/static/media/Dawi.2935d9cf44eadff0aeab.png",
-    "static/media/Proxy-Server.jpg": "/Portofolio/static/media/Proxy-Server.a99c89a0736c1ec142ac.jpg",
-    "static/media/Sort-Comparator.png": "/Portofolio/static/media/Sort-Comparator.8e566fb020bc760f8372.png",
-    "index.html": "/Portofolio/index.html",
-    "main.4adabee8.css.map": "/Portofolio/static/css/main.4adabee8.css.map",
-    "main.38197383.js.map": "/Portofolio/static/js/main.38197383.js.map"
+    "main.css": "/static/css/main.2f396f47.css",
+    "main.js": "/static/js/main.5cd0d465.js",
+    "static/media/professional_photo.png": "/static/media/professional_photo.898172e045fb4674ce90.png",
+    "static/media/gen_ai_leader.png": "/static/media/gen_ai_leader.186f9930a8feb655c2a7.png",
+    "static/media/ourika.jpeg": "/static/media/ourika.c7ad8263095113e71f75.jpeg",
+    "static/media/gcp_data.png": "/static/media/gcp_data.ecf8cc97d39a504e84b0.png",
+    "static/media/github_foundations.png": "/static/media/github_foundations.b2186794cd7b5db63220.png",
+    "static/media/aws_architect.png": "/static/media/aws_architect.5de5ac5041c48c198d8b.png",
+    "static/media/gcp_ml.png": "/static/media/gcp_ml.937dbd8030bdec720cbe.png",
+    "static/media/aws_ml_specialty.png": "/static/media/aws_ml_specialty.80c3dd24bff0e2cadf6d.png",
+    "static/media/azure-data-scientist-associate.png": "/static/media/azure-data-scientist-associate.70c11e0b3d60b1a156ff.png",
+    "static/media/azure_ai.png": "/static/media/azure_ai.e50e2e94f88fc2d64a13.png",
+    "static/media/oracle.png": "/static/media/oracle.1a9b883dca9299b683b2.png",
+    "static/media/microsoft-certified-azure-data-engineer-associate.png": "/static/media/microsoft-certified-azure-data-engineer-associate.ca9f14cd70c811f74fc5.png",
+    "index.html": "/index.html",
+    "main.2f396f47.css.map": "/static/css/main.2f396f47.css.map",
+    "main.5cd0d465.js.map": "/static/js/main.5cd0d465.js.map"
   },
   "entrypoints": [
-    "static/css/main.4adabee8.css",
-    "static/js/main.38197383.js"
+    "static/css/main.2f396f47.css",
+    "static/js/main.5cd0d465.js"
   ]
 }

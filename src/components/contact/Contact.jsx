@@ -21,7 +21,7 @@ const Contact = () => {
             <BsMessenger className="contact__option-icon"></BsMessenger>
             <h4>Messenger</h4>
             <h5>Mohammed Abdelmegeed</h5>
-            <a href="https://m.me/mohammed.ahmedabdelmaguid/" target="_blank">
+            <a href="https://m.me/mohammed.ahmedabdelmaguid/" target="_blank" rel="noreferrer">
               Send a Message
             </a>
           </article>
@@ -31,7 +31,7 @@ const Contact = () => {
             <h5>+201221171660</h5>
             <a
               href="https://api.whatsapp.com/send?phone=+201221171660"
-              target="_blank"
+              target="_blank" rel="noreferrer"
             >
               Send a Message
             </a>
